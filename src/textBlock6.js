@@ -7,12 +7,9 @@ function TextBlock6() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock6">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
-                {/* <p id="textblock-content">
-                Enter Rat Park at your own risk. Lose the cage. Find yourself. An L.A. power couple orders an A.I. sex droid to escape their marital prison. What happens to them could happen to you. With his fourth novel, Adam Novak shows us how it takes a village of automatons to augment your humanity, feed your deceptive compulsive sexual addiction, and forget why you ever got married in the first place. 
-                 </p> */}
                 
                  <h2 id="textblock-subtitle">Excerpts</h2>
                             <h3 id="textblock-subtitle">Rat Park</h3>

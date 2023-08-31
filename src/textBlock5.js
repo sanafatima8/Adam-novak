@@ -5,10 +5,10 @@ import './App.css';
 function TextBlock5() {
     const quotes = [
         {
-            quote: "\"The craziest goddamn thing I've read in a long time.\"",
-            author: "Alexander Payne",
-            affiliation: "Academy-Award winning writer/director of Sideways and The Descendants"
-        },
+            quote: "\" Adam Novak has a merciless eye for a society in which striving replaces every consideration of morality. \"",
+            author: "Michael Tolkin",
+            affiliation: "author of The Player"
+        }
         // ... Add other quotes ...
     ];
 
@@ -47,7 +47,7 @@ function TextBlock5() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock5">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">

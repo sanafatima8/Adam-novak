@@ -5,9 +5,9 @@ import './App.css';
 function TextBlock4() {
     const quotes = [
         {
-            quote: "\"The craziest goddamn thing I've read in a long time.\"",
-            author: "Alexander Payne",
-            affiliation: "Academy-Award winning writer/director of Sideways and The Descendants"
+            quote: "\" So successfully strange it's almost its own genre. Holding a mirror, if not a hall of mirrors to our culture where we disappear and find ourselves at the same time. \"",
+            author: "Aris Janigan",
+            affiliation: "author of Waiting for Lipchitz at Chateau Marmont"
         },
         // ... Add other quotes ...
     ];
@@ -47,28 +47,32 @@ function TextBlock4() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock4">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">
                 In the tradition of Mark Z. Danielewski's House of Leaves and P.T. Anderson's Magnolia, Adam Novak explores the city of angels and demons in his third novel Freaks of the Industry.
-                <br/>
+                </p>
+                <p id="textblock-content">
                 Studio executive Rodney Muir quits the business after a prostitution scandal and returns home to Washington, DC where he falls for two women, the unhappy wife of a diplomat who harbors a dark secret and a federal agent investigating a Starbucks triple homicide who uncovers a White House conspiracy that threatens them all.
-                <br/>
-                {/* Low-budget horror filmmaker Thor Rosenthal gets a shot at the big time when homeless junkie turned Oscar-winning movie star Antwon Legion agrees to star in his desert thriller about a carpenter named Jesus investigating a serial killer stalking Mary Magdalene in Golgotha. The only problem is the movie star playing the messiah might be the Anti-Christ.
-                <br/>
-                Larry Mersault works at the oldest talent agency in Hollywood as the script reader for Antwon Legion. Juggling the insatiable daughter of the agency chairman with endless script coverage requests, Larry is ordered to assassinate Legion by the chairman and break up with his daughter, forced choose between a career he loves and the people he loves the most. */}
-                 </p>
+                </p>
+                <p id="textblock-content">
+                Low-budget horror filmmaker Thor Rosenthal gets a shot at the big time when homeless junkie turned Oscar-winning movie star Antwon Legion agrees to star in his desert thriller about a carpenter named Jesus investigating a serial killer stalking Mary Magdalene in Golgotha. The only problem is the movie star playing the messiah might be the Anti-Christ.
+                </p>
+                <p id="textblock-content">
+                Larry Mersault works at the oldest talent agency in Hollywood as the script reader for Antwon Legion. Juggling the insatiable daughter of the agency chairman with endless script coverage requests, Larry is ordered to assassinate Legion by the chairman and break up with his daughter, forced choose between a career he loves and the people he loves the most.
+                </p>
+
                
             </div>
                      <div class="frame">
-                                <a href="https://a.co/d/0p21mCR" target="_blank">
+                                <a href="https://a.co/d/hEKXbFR" target="_blank">
                                 <button class="btn">
         <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
         </svg>
-        <span>HOVER ME</span>
+        <span>Hurry! </span><span>Buy Now</span>
       </button>
                                 </a>
                             </div>

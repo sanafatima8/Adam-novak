@@ -8,16 +8,15 @@ function TextBlock9() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock9">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">
                 Adam Novak is the author of the novels Rat Park, The Non-Pro, Freaks of the Industry, and Take Fountain. 
                 He divides his time between Beachwood Canyon and Fort Washington, Maryland.
-                 </p>       
-            </div>
-            
-            <div class="frame">
+                 </p>     
+                 
+          
                      <a href="mailto:anovak@icloud.com" target="_blank">
                             <button class="btn">
                                        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
@@ -27,8 +26,10 @@ function TextBlock9() {
                                        <span>Coffee?</span><span>Email Me</span>
                                      </button>
                                 </a>
-                            </div>
-                        
+                         
+                          
+            </div>
+            
                         
                         
                         

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import './App.css';
 
-function TextBlock() {
+function TextBlock1() {
     const quotes = [
         {
             quote: "\"The craziest goddamn thing I've read in a long time.\"",
@@ -10,6 +10,10 @@ function TextBlock() {
             affiliation: "Academy-Award winning writer/director of Sideways and The Descendants"
         },
         // ... Add other quotes ...
+      
+      
+       
+       
     ];
 
     const [quoteIndex, setQuoteIndex] = useState(0);
@@ -47,7 +51,7 @@ function TextBlock() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock1">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">
@@ -62,12 +66,12 @@ function TextBlock() {
                      <div class="frame">
                                 <a href="https://a.co/d/0p21mCR" target="_blank">
                                 <button class="btn">
-        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-        </svg>
-        <span>HOVER ME</span>
-      </button>
+                        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                            <span>Hurry!</span><span>Buy Now</span>
+                               </button>
                                 </a>
                             </div>
                             
@@ -83,4 +87,4 @@ function TextBlock() {
     );
 }
 
-export default TextBlock;
+export default TextBlock1;

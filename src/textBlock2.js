@@ -5,9 +5,9 @@ import './App.css';
 function TextBlock2() {
     const quotes = [
         {
-            quote: "\"The craziest goddamn thing I've read in a long time.\"",
-            author: "Alexander Payne",
-            affiliation: "Academy-Award winning writer/director of Sideways and The Descendants"
+            quote: "\" Strange genius mixed with stomach-turning madness. \"",
+            author: "Matt Greenberg",
+            affiliation: "screenwriter of 1408 and Pet Sematary"
         },
         // ... Add other quotes ...
     ];
@@ -47,7 +47,7 @@ function TextBlock2() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock2">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">
@@ -59,20 +59,18 @@ function TextBlock2() {
                  Just when it seems like Josh will never find the killer, the planets align for a perfect third act.
                  </p>
 
-              
             </div>
                      <div class="frame">
-                                <a href="https://a.co/d/0p21mCR" target="_blank">
+                                <a href="https://www.simonandschuster.com/books/The-Non-Pro/Adam-Novak/9781627934473" target="_blank">
                                 <button class="btn">
         <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
         </svg>
-        <span>HOVER ME</span>
+        <span>Hurry!</span><span>Buy Now</span>
       </button>
                                 </a>
                             </div>
-                            
                             <br/>
                             <div className="quotes">
                 <p className="quote">{animatedQuote}</p>

@@ -8,7 +8,7 @@ function TextBlock8() {
 
     return (
         
-        <div id="textblock">
+        <div id="textblock8">
             <div id="textblock-container">
                 <h1 id="textblock-title"> Adam Novak</h1>
                 <p id="textblock-content">
