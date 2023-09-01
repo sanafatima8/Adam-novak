@@ -83,7 +83,7 @@ function TextBlock4() {
                 <p className="author">~ {currentQuote.author}</p>
                 <p className="affiliation">{currentQuote.affiliation}</p>
             </div>
-            <h3 className="content__index">04</h3>
+            <h3 className="content__index4">04</h3>
 
         </div>
     );

@@ -32,8 +32,8 @@ function App() {
         <div className="content">
           <div className="text-content"></div>
         </div>
+        <TextBlock1 />
       </Parallax>
-      <TextBlock1 />
       <Parallax className='img' strength={100} bgImage={nonPro}>
         <div className="content">
           <div className="text-content"></div>

@@ -13,7 +13,7 @@
 }
 #textblock4 {
   background-color: #a44444;
-  height: 170vh;
+  height: 180vh;
 }
 #textblock5 {
   background-color: #4f3961;
@@ -48,11 +48,18 @@
   font-weight: 600;
   font-family: "Helvetica Neue";
 }
+#textblock-title2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
 #textblock-subtitle {
   color: #ffaf1b;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   font-family: "Helvetica Neue";
+ 
 }
 
 #textblock-content {
@@ -138,6 +145,7 @@
   border-radius: 2rem;
 }
 
+
 svg {
   position: absolute;
   left: 0;
@@ -166,32 +174,125 @@ svg {
 }
 
 
-.quote{
-    
-color: white;
-margin-left: 21rem ;
-
+.btn {
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  border-radius: 2rem;
 }
 
-.author{
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none; 
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+ 
+}
+  
+.btnb:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btnb:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btnb span {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+.quote{
     
   color: white;
   margin-left: 21rem ;
- 
   
   }
-  .affiliation{
-    
+  
+  .author{
+      
     color: white;
     margin-left: 21rem ;
+   
     
     }
+    .affiliation{
+      
+      color: white;
+      margin-left: 21rem ;
+      
+      }
+  
+
 
 .content__index{
     
   color: white;
-  font-size: 50px;
+  font-size: 35px;
  
   float: right;
   
   }
+  .content__index4{
+    
+    color: white;
+  margin-right: 2rem;
+  float: right;
+font-weight: 700;
+font-size: 20px;
+    
+    }
+   
+
+
+    
+.btna {
+  width: 9rem;
+  height: 2.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  border-radius: 2rem;
+}
+
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+ 
+}
+
+.btna:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btna:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btna span {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}

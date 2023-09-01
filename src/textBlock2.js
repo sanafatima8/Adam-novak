@@ -49,8 +49,8 @@ function TextBlock2() {
         
         <div id="textblock2">
             <div id="textblock-container">
-                <h1 id="textblock-title"> Adam Novak</h1>
-                <p id="textblock-content">
+                <h1 id="textblock-title2"> Adam Novak</h1>
+                <p id="textblock-content2">
                In the spirit of Elmore Leonard's Get Shorty and the HBO series Entourage,
                 Adam Novak's crime novel, The Non-Pro, skewers the Hollywood scene like a picador to a bull. 
                 When movie industry insider Jerry Makos dies under mysterious circumstances, 
